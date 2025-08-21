@@ -1,0 +1,28 @@
+.testimonial-rating{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.testimonials-outer-container{
+display: flex;
+justify-content: space-around;
+gap:15px;
+margin: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .testimonial-rating {
+    
+    width: 40%;
+    }
+    .testimonials-outer-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:15px;
+        margin: 10px;
+        }
+}

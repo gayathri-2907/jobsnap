@@ -1,0 +1,70 @@
+.home {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home-templates-cont {
+  width: 100%;
+}
+
+.templates-img-cont {
+  width: 100%;
+  position: relative; 
+  padding: 10px 10px;
+}
+
+.templates-img-cont:hover {
+  cursor: pointer;
+}
+
+.templates-img-cont:hover .black-screen {
+  visibility: visible;
+}
+
+.template-img {
+  width: 100%;
+  height: 100%;
+  border: .1rem solid #eee;
+  box-shadow: .1rem 0rem .5rem #ddd;
+}
+
+.MuiButtonBase-root.MuiButton-root.use-template-btn {
+  background-color: #e2852d;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  visibility: hidden;
+  text-transform: capitalize;
+}
+
+.templates-img-cont:hover .MuiButtonBase-root.MuiButton-root {
+  visibility: visible;
+}
+.homeInfoWrapper .grid{
+  display: flex;
+  justify-content: center;
+  padding: 50px ;
+  text-align: center;
+  gap: 20px;
+}
+.item3{
+  word-wrap: wrap;
+  position: relative;
+}
+.homeImage{
+  width: 300px;
+  height: 180px;
+}
+@media screen and (max-width: 450px) {
+  .home-templates-cont {
+    padding: 15px 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home-templates-cont {
+    padding: 20px 55px;
+  }
+}

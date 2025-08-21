@@ -1,0 +1,139 @@
+
+
+.headings {
+  width: 45%;
+  margin-left: 50px;
+}
+
+.headings h1 {
+  font-size: 50px;
+}
+
+.image {
+  width: 55%;
+  margin-left: 50px;
+  position: relative; 
+}
+
+.search-icon {
+  width: 60px;
+  height: 35px;
+  margin-top:25px;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+.search-icon:hover {
+  background-color: rgb(28, 22, 14);
+  cursor: pointer;
+  color: white;
+}
+
+.dream-job-text {
+  color: orange;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.overlay-box {
+  position: absolute;
+  top: 70%;
+  right: 30px;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.452);
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 4px 10px rgba(79, 58, 44, 0.619);
+}
+
+.overlay-box-2 {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.452);
+  color: black;
+  padding: 5px;
+  width: 70%;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 2px 4px 10px rgba(79, 58, 44, 0.619);
+}
+
+.overlay-box .MuiAvatar-root {
+  margin: 2px;
+}
+
+.logo-container {
+  height: 40px;
+  width: 40px;
+  background: rgb(41, 39, 39);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .dream-job {
+    flex-direction: column-reverse; 
+    align-items: center;
+  }
+
+  .headings {
+    width: 100%; 
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+
+  .overlay-box {
+    top: 60%; 
+    right: 20px; 
+  }
+
+  .overlay-box-2 {
+    top: 50%; 
+    right: 10%;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .dream-job {
+    flex-direction: column-reverse; 
+    align-items: center;
+  }
+
+  .headings {
+    width: 90%; 
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .image {
+    width: 100%; 
+    margin-right: 0;
+  }
+
+
+  .overlay-box {
+    top: 65%;
+    right: 10px;
+  }
+
+  .overlay-box-2 {
+    width: 40%;
+    top: 40%; /* Adjust top position */
+    right: 60%;
+  }
+}

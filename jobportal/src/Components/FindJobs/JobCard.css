@@ -1,0 +1,76 @@
+.jobcard {
+  width: 350px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 10px rgb(156, 150, 141);
+  background-color: white; /* Default background color */
+}
+
+.jobcard:hover {
+  border: 1px solid orange;
+  box-shadow: 0 0 5px orange;
+}
+
+.bookmark {
+  cursor: pointer;
+}
+
+.jobcard-requirements div {
+  padding: 0.3rem;
+  margin-left: 20px;
+  background-color: #a17e6127;
+  color: black;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  font-size: 0.8rem;
+  border: 1.5px solid orange;
+}
+
+.job-description {
+  font-size: small;
+  padding: auto;
+  padding-left: 20px;
+}
+
+.jobcard-btn a {
+  text-decoration: none;
+}
+
+.jobcard-btn {
+  margin: 10px 110px 10px 110px;
+}
+
+/* Dark mode styles */
+.dark-mode .jobcard {
+  background-color: #333; 
+  color: #ffffff; 
+  border: 1px solid #444;
+}
+
+.dark-mode .jobcard-requirements div {
+  background-color: #444; 
+  color: white; 
+  border: 1.5px solid orange;
+}
+
+.dark-mode .job-description {
+  color: #ddd; 
+}
+
+.dark-mode .jobcard-btn a {
+  color: #ffffff;
+}
+
+.dark-mode .jobcard-btn {
+  margin: 10px 110px 10px 110px;
+}
+
+.dark-mode .bookmark {
+  color: white;
+}
+
+.dark-mode .jobcard:hover {
+  border: 1px solid orange; 
+  box-shadow: 0 0 5px orange;
+}

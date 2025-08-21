@@ -1,0 +1,30 @@
+.home-templates-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 70px;
+}
+
+.template-header-title {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1px;
+}
+
+.template-select-text {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.navbarlinks{
+  font-weight: 500;
+  font-size: large;
+}
+.nav-links{
+text-decoration: none;
+color: #ffa550;
+}
+.nav-links:hover{
+  color:black;
+  text-decoration: underline;
+}

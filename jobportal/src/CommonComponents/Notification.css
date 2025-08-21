@@ -1,0 +1,8 @@
+.notificationicon:hover{
+    background-color: #f6eee7;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+.notificationindicator{
+    cursor: pointer;
+}

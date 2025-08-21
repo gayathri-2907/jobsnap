@@ -1,0 +1,30 @@
+.subscribe-outer-container{
+    background-color: rgba(169, 169, 169, 0.527);
+    margin: 30px 50px 0px 50px;
+    border-radius: 10px;
+}
+.subscribe-btn{
+    border-radius: 10px;
+    height: 40px;
+    margin: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: orange;
+    color: white;
+}
+.subscribe-input{
+    border-radius: 5px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    margin-top: 10px; 
+}
+.subscribe-input::placeholder{
+    color: black;
+}
+@media screen and (max-width: 1024px) {
+    .subscribe-outer-container{
+        flex-direction: column;
+        align-items: center;
+        height: 220px;
+    }
+}

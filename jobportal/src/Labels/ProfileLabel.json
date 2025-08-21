@@ -1,0 +1,62 @@
+{
+    "profilelabel": {
+      "success": "Success",
+      "successMessage": "Profile Picture Updates Successfully"
+    },
+    "aboutLabels": {
+      "title": "About",
+      "successMessage": "Profile about updated successfully"
+    },
+    "skillsLabels": {
+      "title": "Skills",
+      "successMessage": "Profile Skills updated successfully"
+    },
+    "experienceLabels": {
+      "title": "Experience",
+      "successMessage": "Profile Experience updated successfully",
+      "successDeleteMessage": "Experience deleted successfully",
+      "description": "Description",
+      "addExperience": "Add Experience",
+      "editExperience": "Edit Experience",
+      "titleValidation": "Title is required",
+      "companyValidation": "Company is required",
+      "locationValidation": "Location is required",
+      "descriptionValidation": "Description is required",
+      "startDateValidation": "Start date is required",
+      "startDateError": "Invalid start date:",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "endDateError": "Invalid end date:",
+      "pickDate": "Pick date",
+      "formvalidationError": "Form validation failed",
+      "currentlyWorkingHere": "Currently working here",
+      "formFieldsError": "Please fill all required fields",
+      "summary": "Summary",
+      "summaryPlaceholder": "Enter summary...",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "certificationLabels": {
+      "title": "Certifications",
+      "successMessage": "Profile Certifications updated successfully",
+      "successDeleteMessage": "Certificate deleted successfully",
+      "issuedBy": "Issued By: ",
+      "issuedOn": "Issued On: ",
+      "titleValidation": "Title is required",
+      "issuerValidation": "Issuer is required",
+      "issueDateValidation": "Issue date is required",
+      "certificateIdValidation": "Certificate ID is required",
+      "dateValidation": "Invalid Date",
+      "formvalidationError": "Form validation failed",
+      "formFieldsError": "Please fill all required fields",
+      "issueDate": "Issue Date",
+      "pickDate": "Pick Date",
+      "titlePlaceholder": "Enter Title..",
+      "titleLabel": "Title",
+      "certificateIdLabel": "Certificate ID",
+      "certificateIdPlaceholder": "Enter Certificate ID..",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  }
+  

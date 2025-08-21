@@ -1,0 +1,12 @@
+{
+    "default":{
+        "oops":"Opps!.",
+        "message":"You do not have any Resumes yet, Make One to view it here"
+    },
+    "resumeNavbar":{
+        "title":"Templates",
+        "templateSelect":"Select a template to get started",
+        "resumeTemplates":"ResumeTemplates",
+        "myResumes":"My Resumes"
+    }
+}

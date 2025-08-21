@@ -1,0 +1,18 @@
+.project-name {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .project-tech-stack,
+  .project-description {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 400;
+  }
+  
+  .project-tech-stack {
+    font-style: italic;
+    margin-left: 4px;
+  }
+  

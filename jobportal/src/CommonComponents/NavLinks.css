@@ -1,0 +1,26 @@
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-link {
+    text-align: center;
+    padding: 20px;
+    font-size:large;
+    font-weight: bold;
+    color: white;
+}
+.nav-link:hover{
+    color:#ded2b9;
+   border: 1px solid orange;
+}
+.nav-link.active {
+    color: #dfa247 !important;
+    font-weight: bold !important;
+    border-bottom: 2px solid #e2a833 !important; 
+}
+

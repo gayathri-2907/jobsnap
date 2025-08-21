@@ -1,0 +1,140 @@
+.SignUpPage {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SignUpPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/public/Assests/images/loginbackground.png');
+  background-size: cover;
+  opacity: 0.7; /* Change the opacity here */
+  z-index: -1;
+}
+.signupfields{
+  background-color: rgba(255, 255, 255, 0.719);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.365);
+  border-radius: 10px;
+}
+.loginfields{
+  margin-left: 90px;
+  background-color: rgba(255, 255, 255, 0.719);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.365);
+  border-radius: 10px;
+}
+.sign-up-container {
+  transition: all 1s ease-in-out;
+}
+.signuppage{
+  gap: 20px;
+  padding: 27px;
+}
+
+.slide-in{
+  transform: translateX(0);
+  animation: showSignup 1s ease-in-out 0s 1 forwards;
+}
+
+.slide-out{
+  transform: translateX(0);
+}
+
+.slide-out-active{
+  transform: translateX(0vw);
+  animation: showLogin 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes showSignup {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50vw);
+  }
+}
+
+@keyframes showLogin {
+  0%{
+    transform: translateX(-50vw);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+/* .mantine-TextInput-input:focus{
+  border-color: orange;
+  box-shadow: 0px 0px 10px orange;
+} */
+.mantine-PasswordInput-section:focus{
+  border-color: orange!important;
+  box-shadow: 0px 0px 10px orange!important;
+}
+.separation-block{
+    height:auto;
+    width:50vw;
+    transition: all 1s ease-in-out;
+    background: radial-gradient(circle,rgba(220, 222, 245, 0.297) 0%, rgba(237, 231, 219, 0.05) 100%);
+}
+.curve-out-right{
+    border-radius:0px 200px 200px 0px
+}
+.curve-out-left{
+    border-radius:200px 0px 0px 200px
+}
+.mantine-Checkbox-body{
+    align-items: center;
+}
+.forget-password{
+    color: orange;
+    cursor: pointer;
+    margin-inline-start: 80px;
+}
+.forget-password:hover{
+    text-decoration: underline;
+}
+.login {
+  text-shadow: 0 0 0 rgba(57, 40, 30, 0.525), 0 0 40px rgb(233, 116, 44);
+  color: orange;
+  transition: all 0.3s ease-in-out;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.error-message {
+    min-height: 20px; 
+    color: red;
+}
+.loginsignupbtn:hover{
+text-decoration: underline;
+}
+.signuploginbtn:hover{
+  text-decoration: underline;
+}
+
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .image-animation {
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+@media (max-width: 768px){
+  .forget-password{
+    margin-inline-start:60px;
+
+  }
+}

@@ -1,0 +1,47 @@
+.achievements-paper {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.achievements-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.achievement-cont {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.achievement-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.achievement-form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-new-btn-cont {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.add-new-btn-cont button {
+  color: #1976d2;
+  font-size: 16px;
+  text-transform: none;
+}
+
+button {
+  transition: background-color 0.3s;
+}

@@ -1,0 +1,31 @@
+.sort-items{
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.sort-icon{
+    color: orange;
+    margin-left: 5px;
+}
+.jobs-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Jobs{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+@media(max-width:767px){
+    .Jobs{
+        flex-direction: row;
+        width: auto !important;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+}

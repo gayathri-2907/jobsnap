@@ -1,0 +1,53 @@
+.category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    height: 15rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid orange;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .category-container:hover {
+    background-color: rgba(211, 211, 211, 0.441);
+    border:2px solid darkorange;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .icon-container {
+    padding: 1rem;
+    background-color: orange;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-container:hover .icon-container {
+    background-color: #ff8c00;  
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 0.25rem;
+  }
+  
+  .job-count {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: orange;
+  }
+  
+  .mantine-Carousel-control{
+    background-color: black !important;
+    color: white!important;
+  }

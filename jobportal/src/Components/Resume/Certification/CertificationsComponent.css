@@ -1,0 +1,52 @@
+.certifications-paper {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.certifications-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.certification-cont {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 0.2px solid #ddd;
+  border-radius: 8px;
+  /* background-color: #f9f9f9; */
+}
+
+.certification-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+.certification-form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.add-new-btn-cont {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.add-new-btn-cont button {
+  text-transform: none;
+  font-size: 16px;
+  color: #1976d2;
+}
+
+@media (max-width: 768px) {
+  .certification-form-cont {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,94 @@
+{
+    "buttons":{
+        "preview": "Preview",
+        "edit": "Edit",
+        "submit": "Submit",
+        "cancel":"Cancel",
+        "accept": "Accept",
+        "reject": "Reject",
+        "back": "Back",
+        "download":"Download",
+        "delete":"Delete",
+        "login":"Login",
+        "signUp":"Sign Up",
+        "editTemplate":"EditTemplate"
+    },
+    "notifications":{
+        "success":"Success",
+        "failure":"Failed"
+    },
+    "notFound":{
+        "pageNotFound":"Page Not Found!",
+        "notFoundMessage":"We are unable to find the page"
+    },
+    "login":{
+        "default":{
+            "common":"Find your dream job today!",
+            "success":"Login successfull",
+            "successMessage":"Redirecting to Home Page...",
+            "failure":"Login Failed",
+            "dontHaveAccount":"Don't have an account ?",
+            "forgetPassword":"Forgot Password?"
+        },
+        "fields":{
+            "email":"Email",
+            "password":"Password"
+        },
+        "names":{
+            "useremail":"userEmail",
+            "password":"userPassword"
+        },
+        "placeholders":{
+            "email":"Enter your email",
+            "password":"Enter your password"
+
+            },
+            "tooltips":{
+                "password":"Password must be between 8 to 15 characters long ",
+                "passwordContinuation":"and contain at least one uppercase letter, one lowercase letter, one number, and one special character."
+            }
+        },
+        "signUp":{
+            "errorMessages":{
+                "checked":"You must accept the terms and conditions",
+                "password":"Password must match",
+                "formValidation":"Form has validation errors"
+            },
+            "default":{
+                "success":"Registration successfull",
+                "successMessage":"Redirecting to Login Page...",
+                "failure":"Registration Failed",
+                "haveAccount":"Have an account ?"
+                },
+                "labels":{
+                    "name":"Full Name",
+                    "email":"Email",
+                    "password":"Password",
+                    "confirmPassword":"Confirm Password",
+                    "accountType":"You are ?"
+                },
+                "names":{
+                    "name":"userName",
+                    "email":"userEmail",
+                    "password":"userPassword",
+                    "confirmPassword":"confirmPassword",
+                    "accountType":"accountType",
+                    "terms":"termsAccepted"
+                },
+                "placeholders":{
+                    "name":"Enter your Name",
+                    "email":"Enter your Email",
+                    "password":"Enter your Password",
+                    "confirmPassword":"Re-Enter your Password"
+                },
+                "tooltips":{
+                "password":"Password must be between 8 to 15 characters long ",
+                "passwordContinuation":"and contain at least one uppercase letter, one lowercase letter, one number, and one special character."
+            }
+        },
+        "unauthorized":{
+            "code":"401",
+            "statusMessage":"Unauthorized Access",
+            "message":"Sorry, you don't have permission to view this page"
+        }
+}

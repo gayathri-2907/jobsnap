@@ -1,0 +1,72 @@
+.Applicant-count-historycard {
+  font-size: smaller;
+}
+
+.historycard {
+  width: 350px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 10px rgb(156, 150, 141);
+  background-color: white; /* Default background color */
+}
+
+.historycard:hover {
+  border: 1px solid orange;
+  box-shadow: 0 0 5px orange;
+}
+
+.bookmark {
+  cursor: pointer;
+}
+
+.historycard-requirements div {
+  padding: 0.3rem;
+  margin-left: 20px;
+  background-color: #a17e6127;
+  color: black;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  font-size: 0.8rem;
+  border: 1.5px solid orange;
+}
+
+.historycard-description {
+  font-size: small;
+  padding: auto;
+  padding-left: 20px;
+}
+
+/* Dark mode styles */
+.dark-mode .historycard {
+  background-color: #333; /* Dark background */
+  color: #ffffff; /* Light text color */
+  border: 1px solid #444; /* Slightly lighter border for dark mode */
+}
+
+.dark-mode .historycard-requirements div {
+  background-color: #444; /* Darker background for requirements section */
+  color: white; /* White text for requirements */
+  border: 1.5px solid orange; /* Keep the same orange border */
+}
+
+.dark-mode .historycard-description {
+  color: #ddd; /* Lighter text for description */
+}
+
+.dark-mode .historycard-btn a {
+  color: #ffffff; /* White text for links in dark mode */
+}
+
+.dark-mode .historycard-btn {
+  margin: 10px 110px 10px 110px;
+}
+
+.dark-mode .bookmark {
+  color: white; /* Change bookmark icon color in dark mode */
+}
+
+.dark-mode .historycard:hover {
+  border: 1px solid orange; /* Keep the same hover effect in dark mode */
+  box-shadow: 0 0 5px orange;
+}

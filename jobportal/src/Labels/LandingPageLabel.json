@@ -1,0 +1,217 @@
+{
+    "headerLabels": {
+      "applicationName": "JobSnap",
+      "logoAlt": "iJobs Logo",
+      "homeTooltip": "Home",
+      "loginButton": "Login"
+    },
+    "navLinksLabels": {
+      "findJobs": "Find Jobs",
+      "findTalent": "Find Talent",
+      "postJob": "Post Job",
+      "postedJob": "Posted Job",
+      "jobHistory": "Job History"
+    },
+    "notificationMenuLabel": {
+      "emptynotification": "No New Notifications"
+    },
+    "profileMenuLabels": {
+      "hiUser": "Hi, ",
+      "profile": "Profile",
+      "resume": "Resume",
+      "darkMode": "Dark Mode",
+      "logout": "Logout",
+      "success": "Success",
+      "logoutSuccess": "Logged out successfully"
+    },
+    "dreamJobLabels": {
+      "findYour": "Find your",
+      "dreamJob": "dream job ",
+      "with": "with",
+      "us": "us",
+      "goodLife": "Good life begins with a good company. Start exploring thousands of jobs in one place.",
+      "jobTitle": "Job Title",
+      "jobType": "Job Type",
+      "placeholderJobTitle": "Software Engineer",
+      "placeholderJobType": "Full Time",
+      "gotJob": "10k+ got job",
+      "role": "Software Engineer",
+      "location": "New York",
+      "daysAgo": "1 day ago",
+      "applicants": "120 Applicants"
+    },
+    "companiesLabels": {
+      "companies": [
+        "Google",
+        "Amazon",
+        "Figma",
+        "Netflix",
+        "Meta",
+        "Microsoft",
+        "Pinterest",
+        "Slack",
+        "Spotify",
+        "Oracle",
+        "Walmart",
+        "Endava",
+        "GalaxE"
+      ],
+      "trustedBy": "Trusted By",
+      "count": "1000+",
+      "company": "Companies"
+    },
+    "jobCategoryLabels": {
+      "browse": "Browse",
+      "job": "Job",
+      "category": "Category",
+      "description": " Explore diverse job opportunities tailored to your skills. Start your career journey today!",
+      "jobCategoryCards": [
+        {
+          "name": "Arts & Design",
+          "desc": "Creative roles including graphic design, animation, and multimedia.",
+          "jobs": "3k+ jobs posted",
+          "image": "Arts & Design.jpg"
+        },
+        {
+          "name": "Content Writing",
+          "desc": "Roles for content creators, bloggers, and technical writers.",
+          "jobs": "2k+ jobs posted",
+          "image": "contentwriting.png"
+        },
+        {
+          "name": "Customer Supplier",
+          "desc": "Roles related to customer service, sales, and client management.",
+          "jobs": "1.5k+ jobs posted",
+          "image": "customersupplier.png"
+        },
+        {
+          "name": "Data Entry",
+          "desc": "Roles for individuals focusing on data management and input tasks.",
+          "jobs": "4k+ jobs posted",
+          "image": "dataentry.png"
+        },
+        {
+          "name": "Digital Marketing",
+          "desc": "Roles in SEO, SEM, social media marketing, and digital advertising.",
+          "jobs": "5k+ jobs posted",
+          "image": "digital marketing.png"
+        },
+        {
+          "name": "Finance",
+          "desc": "Finance roles including accountants, and consultants.",
+          "jobs": "2.5k+ jobs posted",
+          "image": "finnace.jpg"
+        },
+        {
+          "name": "Human Resources",
+          "desc": "HR roles for recruiting, and employee relations.",
+          "jobs": "1k+ jobs posted",
+          "image": "human resources.jpg"
+        },
+        {
+          "name": "Sales",
+          "desc": "Sales positions in various industries, from retail to tech.",
+          "jobs": "6k+ jobs posted",
+          "image": "sales.png"
+        },
+        {
+          "name": "UI/UX Design",
+          "desc": "Design-focused roles for improving user interfaces and experiences.",
+          "jobs": "2k+ jobs posted",
+          "image": "UI-UX design.png"
+        },
+        {
+          "name": "Web Developer",
+          "desc": "Roles for full-stack, front-end, and back-end web development.",
+          "jobs": "7k+ jobs posted",
+          "image": "web-developer.png"
+        }
+      ]
+    },
+    "workingLabels": {
+      "howIt": "How it",
+      "works": "Works",
+      "description": "Effortlessly navigate through the process and land you dream job.",
+      "profileComplete": "Complete Your Profile",
+      "completion": "70% completed",
+      "work": [
+        {
+          "name": "Build Resume",
+          "desc": "Create a standout resume with your skills"
+        },
+        {
+          "name": "Apply For Job",
+          "desc": "FIne and apply for jobs that match your skills"
+        },
+        {
+          "name": "Get Hired",
+          "desc": "Conect with employers and start your new job"
+        }
+      ]
+    },
+    "testmonialLabels": {
+      "what": "What",
+      "user": "User",
+      "says": "says about us ?",
+      "testimonials": [
+        {
+          "name": "Gayathri",
+          "testmonial": "This job poratl made job search easy and quick.Recommended to all job seekers!",
+          "rating": 5
+        },
+        {
+          "name": "Suresh",
+          "testmonial": "I loved the platform and found the job search process more efficient. Thanks!",
+          "rating": 4
+        },
+        {
+          "name": "Nandhini",
+          "testmonial": "Thank you for your help in finding a suitable job. I am glad I found the right platform.",
+          "rating": 4
+        },
+        {
+          "name": "Ramesh",
+          "testmonial": "I am very satisfied with the job platform. I found the job search process efficient and easy to use.",
+          "rating": 5
+        },
+        {
+          "name": "Mahesh",
+          "testmonial": "I have been using this platform for job search and it has been very helpful. Thank you!",
+          "rating": 4
+        }
+      ]
+    },
+    "subscribeLabels": {
+      "neverMiss": "Never Wants to Miss",
+      "any": "Any",
+      "jobNews": "Job News?",
+      "subscribePlaceholder": "Your@gmail.com",
+      "subscribe": "Subscribe",
+      "successMessage": "Subscribed successfully",
+      "errorMessage": "Please enter a valid email"
+    },
+    "footerLabels": {
+      "title": "JobSnap",
+      "description": "Job Portal with user profiles, skills updates, certifications, work experience",
+      "socialMedia": {
+        "facebook": "https://www.facebook.com",
+        "instagram": "https://www.instagram.com",
+        "twitter": "https://www.twitter.com"
+      },
+      "footerLinks": [
+        {
+          "title": "Product",
+          "link": ["Find Job", "Find Company", "Find Employee"]
+        },
+        {
+          "title": "Company",
+          "link": ["About Us", "Contact Us", "Privacy Policy", "Terms & Conditions"]
+        },
+        {
+          "title": "Support",
+          "link": ["Help & support", "Feedback"]
+        }
+      ]
+    }
+  }
+  

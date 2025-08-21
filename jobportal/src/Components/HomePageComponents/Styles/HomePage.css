@@ -1,0 +1,19 @@
+.company-outer-container {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  .companies-images {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  /* dream-job */
+  .dream-job-title h1 {
+    font-size: 50px;
+  }
+  

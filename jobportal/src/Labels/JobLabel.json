@@ -1,0 +1,73 @@
+{
+    "labels": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "personalWebsite": "Personal Website",
+      "attachCV": "Attach Your CV",
+      "coverLetter": "Cover Letter",
+      "submitYourApplication": "Submit Your Application",
+      "success":"Success",
+      "successMessage":"Application Submitted successfully",
+      "recommandedJobs":"Recommended Jobs",
+      "loadingJobs":"Loading Recommended Jobs...",
+      "jobDescription":{
+        "requiredSkills":"Required Skills",
+        "aboutCompany":"About Company"
+      },
+      "jobHistory":{
+        "title":"Job History",
+        "applied":"Applied",
+        "saved":"Saved",
+        "offered":"Offered",
+        "interviewing":"Interviewing"
+      },
+      "postedJob":{
+        "title":"Jobs",
+        "tabs":{
+          "active":"Active",
+          "drafts":"Drafts",
+          "closed":"Closed"
+        }
+      },
+      "postedJobDescription":{
+        "tabs":{
+          "overview":"Overview",
+          "applicants":"Applicants",
+          "invited":"Invited",
+          "offered":"Offered",
+          "rejected":"Rejected"
+          },
+          "default":{
+            "applicants":"No Applicants",
+            "invited":"No Invited Candidates",
+            "offered":"No Offered Candidates",
+            "rejected":"No Rejected Candidates",
+            "noJobs":"No Jobs Found"
+          }
+      }
+    },
+    "placeholders": {
+      "enterName": "Enter Name",
+      "enterEmail": "Enter Email",
+      "enterPhoneNumber": "Enter Phone Number",
+      "enterURL": "Enter URL",
+      "yourCV": "Your CV",
+      "typeSomethingAboutYourself": "Type something about yourself..."
+    },
+    "validations":{
+        "name":"Name is required",
+        "email":"Email is required",
+        "phoneNumber":"Phone Number is required",
+        "website":"Website is required",
+        "resume":"Resume is required"
+    },
+    "errors":{
+        "jobFetchingError":"Error Feteching recommended Jobs:"
+    },
+    "default":{
+        "noJobs":"No jobs available",
+        "noJobsFound":"No jobs found"
+    }
+  }
+  

@@ -1,0 +1,36 @@
+
+{
+    "labels": {
+      "talents":"Talents",
+      "experience": "Experience",
+      "interview": "Interview",
+      "email": "Email",
+      "website": "Website",
+      "resume": "Resume",
+      "coverLetter": "Cover Letter",
+      "profile": "Profile",
+      "schedule": "Schedule",
+      "viewApplication": "View Application",
+      "interviewScheduled": "Interview Scheduled",
+      "interviewScheduledSuccessfully": "Interview Scheduled Successfully",
+      "offered": "Offered",
+      "offerSentSuccessfully": "Offer has been sent Successfully",
+      "rejected": "Rejected",
+      "applicantRejected": "Applicant has been Rejected",
+      "failedToScheduleInterview": "Failed to schedule interview"
+    },
+    "placeholders": {
+      "enterDate": "Enter Date",
+      "enterTime": "Enter Time"
+    },
+    "default":{
+        "notalents":"No Talents Found"
+    },
+    "errors": {
+        "email":"Applicant email is not defined",
+        "time":"Time is not defined",
+        "invalidTimeFormat":"Invalid time format",
+        "date":"Date is not defined"
+    }
+  }
+  
